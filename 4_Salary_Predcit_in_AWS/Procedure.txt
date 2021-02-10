@@ -1,0 +1,15 @@
+1. create a model and dump it to a .pkl file using pickle
+2. create a app module using Flash and load this .pkl file
+3. run the app locally and test
+4. change the app.run(host='0.0.0.0',port=8080)
+5. create an account in aws management console
+6. create an EC2 instance . while creating download the .pem file
+7. download softwares like putty (i have solor putty), puttygen, and winscp
+8. get puttyken and convert the .pem file to .ppk file
+9. use this file to connect to EC2 using putty and winscp (get the host name from EC2 instance --> connect option)
+10. using winscp copy the files app.py, requiemnts.txt, .pkl 
+11 connect using putty and run command sudo apt-get update && sudo apt-get install pip3
+12 install all packages using command python3 install -r requiemnst.txt
+13. run the app using the command python3 app.py
+14. get the url from AWS --> instance --> connect
+15. disable the app by going to App Engine  --> settings --> disable application
